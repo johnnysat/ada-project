@@ -9,7 +9,10 @@ function App() {
 
   function aumentar() {
     setContador(contador + 1)
+  }
 
+  function diminuir() {
+    setContador(contador - 1)
   }
 
   return (
@@ -19,6 +22,8 @@ function App() {
       <h1>Meu Contador</h1>
       <h2>{contador}</h2>
       <button onClick={aumentar}>Aumentar</button>
+      <button onClick={diminuir}>Diminuir</button>
+
     </>
   )
 }
