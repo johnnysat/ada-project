@@ -1,14 +1,18 @@
-import { React, useState } from 'react'
+import { React } from 'react'
 import Contador from './components/contador/Contador'
+import Listas from './components/listas/Listas'
+
 
 
 function App() {
 
   return (
     <>
-      <h1>Botão Teste \/</h1>
       <Contador />
-
+      <br/>
+      <br/>
+      <br/>
+      <Listas />
     </>
   )
 }

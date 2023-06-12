@@ -16,9 +16,9 @@ export default function Contador() {
 
   return (
     <>
-      <h1>Meu Contador {contador}
+      <h2>Meu Contador {contador}
         {contador > 9 ? <h2>Valor Muito Grande</h2> : <h2>Valor muito pequeno</h2>}
-        </h1>
+      </h2>
       <button onClick={diminuir}>Diminuir</button>
       <button onClick={aumentar}>Aumentar</button>
     </>
